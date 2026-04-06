@@ -8,3 +8,9 @@ print(str)
 
 a,b,c = 1, 3.14, "Hi"
 print(a,b,c)
+
+print(type(a))
+print(type(b))
+print(type(c))
+
+print("{}, {}, {}".format(a,b,c))
