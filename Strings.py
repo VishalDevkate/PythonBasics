@@ -1,4 +1,4 @@
-str1 = " This is Pune city"
+str1 = "This is Pune city"
 str2 = "Pune"
 str3 = "punecity"
 
@@ -9,3 +9,8 @@ str4 = " Stripping "
 print("ltrim: ", str4.lstrip())
 print("rtrim: ", str4.rstrip())
 print("strip: ", str4.strip())
+
+print("str1[1]: ", str1[1])
+print("str1[0:7]: ", str1[0:7])
+print("str1[7:]: ", str1[7:])
+print("str1[0:7:2]: ", str1[0:7:2])
