@@ -24,3 +24,16 @@ except FileNotFoundError:
     print("File not found")
 except Exception as ex:
     print(f"Exception raised: {ex}")
+
+print("*"*50)
+print("using readlines =>")
+try:
+    file = open("test.txt", "r")
+    for line in file.readlines():
+        print(line)
+    print("End of file reached")
+    file.close()
+except FileNotFoundError:
+    print("File not found")
+except Exception as ex:
+    print(f"Exception raised: {ex}")
