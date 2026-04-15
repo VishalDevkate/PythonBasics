@@ -11,6 +11,7 @@ Write a Python script that opens the file and reads all its contents.
 Print the entire content of the file.
 '''
 
+#opening file in read mode
 file = open('file1.txt', "r")
-print(file.read())
+print(file.read())  #reading all contents
 file.close()
